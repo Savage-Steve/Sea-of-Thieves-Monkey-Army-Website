@@ -1,7 +1,14 @@
 <html><head>
 	<style type="text/css">
 	@import url('http://fonts.cdnfonts.com/css/windlass');
-body {
+border {
+    width: 20px;
+    border: 3px inset transparent;
+    border-image: linear-gradient(to right, red, orange, yellow);
+    border-image-slice: 1;
+    padding: 25px;
+}
+		body {
     font-family: 'Windlass', sans-serif;                                                
     font-size: 15px;
     min-height: calc(100vh * 2);
@@ -209,7 +216,7 @@ $button.addEventListener("click", () => $navigation.classList.toggle("view"));
 		<h1>
 			<b>Here's Some Of The Best Romantic Songs from My Opinion</b>
 		</h1>
-		<iframe src="https://www.youtube.com/embed/4fndeDfaWCg" width="560" height="315" style="border:20px inset lightgray; border-radius:20px">
+		<iframe src="https://www.youtube.com/embed/4fndeDfaWCg" width="560" height="315" style="border:; border-radius:20px">
 	</center>
     </div>
 
